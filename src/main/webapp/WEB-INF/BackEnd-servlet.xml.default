@@ -20,9 +20,9 @@
 
    <bean id="dataSource" class="org.apache.tomcat.dbcp.dbcp2.BasicDataSource">
       <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
-      <property name="url" value="[CHANGE-ME]"/>
-      <property name="username" value="[CHANGE-ME]"/>
-      <property name="password" value="[CHANGE-ME]"/>
+      <property name="url" value="[Change-Me]"/>
+      <property name="username" value="[Change-Me]"/>
+      <property name="password" value="[Change-Me]"/>
    </bean>
 
    <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">

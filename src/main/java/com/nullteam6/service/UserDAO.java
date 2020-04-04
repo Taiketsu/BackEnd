@@ -9,4 +9,6 @@ public interface UserDAO {
     public boolean registerUser(UserTemplate template);
 
 	void updateUser(User user);
+
+    boolean registerUser(UserTemplate template);
 }
